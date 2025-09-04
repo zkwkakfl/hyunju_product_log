@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">생산내역기록</string>
+    
+    <!-- 메인 화면 -->
+    <string name="title_production_log">생산 내역 기록</string>
+    <string name="hint_date">날짜</string>
+    <string name="hint_model">생산 모델</string>
+    <string name="hint_quantity">수량</string>
+    <string name="btn_save">저장하기</string>
+    <string name="btn_calendar">달력 보기</string>
+    <string name="btn_statistics">통계 보기</string>
+    <string name="btn_model_management">모델 관리</string>
+    <string name="btn_export">데이터 내보내기</string>
+    
+    <!-- 메시지 -->
+    <string name="msg_save_success">저장 완료!</string>
+    <string name="msg_input_all_fields">모든 항목을 입력해주세요.</string>
+    <string name="msg_invalid_quantity">수량은 숫자여야 합니다.</string>
+    <string name="msg_invalid_date">날짜 형식이 올바르지 않습니다. (YYYY-MM-DD)</string>
+    <string name="msg_model_not_found">모델이 등록되지 않았습니다.</string>
+    <string name="msg_save_error">저장 중 오류가 발생했습니다.</string>
+    
+    <!-- 통계 화면 -->
+    <string name="title_statistics">생산 통계</string>
+    <string name="total_production">총 생산량</string>
+    <string name="total_amount">총 금액</string>
+    <string name="model_statistics">모델별 통계</string>
+    <string name="daily_statistics">일별 생산량</string>
+    
+    <!-- 모델 관리 화면 -->
+    <string name="title_model_management">모델 관리</string>
+    <string name="hint_model_name">모델명</string>
+    <string name="hint_unit_price">단가</string>
+    <string name="btn_add_model">새 모델 추가</string>
+    <string name="registered_models">등록된 모델 목록</string>
+    
+    <!-- 내보내기 화면 -->
+    <string name="title_export">데이터 내보내기</string>
+    <string name="hint_start_date">시작 날짜</string>
+    <string name="hint_end_date">종료 날짜</string>
+    <string name="btn_export_csv">CSV 파일로 내보내기</string>
+    <string name="msg_export_success">CSV 파일이 성공적으로 생성되었습니다.</string>
+    <string name="msg_no_data">선택된 기간에 데이터가 없습니다.</string>
+</resources>
